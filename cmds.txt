@@ -1,0 +1,13 @@
+conda env create -f environment.yml
+
+// activate: 
+conda activate cdev
+
+// deactivate
+conda deactivate cdev
+
+conda env list
+
+git config user.name "felipedias-ie"
+git config user.email "fhartmann.ieu2024@student.ie.edu"
+git commit --amend --reset-author --no-edit

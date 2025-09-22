@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "cmake -S . -B build && cmake --build build",
+    "run": "npm run build && ./build/src/main",
+    "test": "npm run build && ctest --test-dir build --output-on-failure"
+  }
+}

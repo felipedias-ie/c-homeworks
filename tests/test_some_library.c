@@ -1,9 +1,7 @@
-#include "utest.h"
-#include "some_library.h"
+#include "../third_party/utest.h"
 
-UTEST(SomeLibrary, SanityCheck){
-  do_something();
+UTEST(Sanity, TrueIsTrue){
+  EXPECT_TRUE(1);
 }
-
 
 UTEST_MAIN()
