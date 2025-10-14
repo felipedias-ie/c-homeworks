@@ -5,6 +5,7 @@
     "test": "npm run build && ctest --test-dir build --output-on-failure",
     "session5": "micromamba run -n cdev cmake -S . -B build && micromamba run -n cdev cmake --build build && ./build/src/session5_demo",
     "session7": "micromamba run -n cdev cmake -S . -B build && micromamba run -n cdev cmake --build build && ./build/src/session_7/session7",
-    "session7:test": "micromamba run -n cdev cmake -S . -B build && micromamba run -n cdev cmake --build build && micromamba run -n cdev ctest --test-dir build --output-on-failure --tests-regex test_session7_rectangle"
+    "session7:test": "micromamba run -n cdev cmake -S . -B build && micromamba run -n cdev cmake --build build && micromamba run -n cdev ctest --test-dir build --output-on-failure --tests-regex test_session7_rectangle",
+    "session8": "npm run build && clear && ./build/src/session8/session8"
   }
 }
