@@ -23,3 +23,5 @@ target_link_libraries(session5_demo PRIVATE session5)
 add_subdirectory(session_7)
 
 add_subdirectory(session8)
+
+add_subdirectory(session10)
